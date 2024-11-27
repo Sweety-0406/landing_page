@@ -1,7 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
 import LandingPage from './components/LandingPage'
 import Navbar from './components/Navbar'
 import About from './components/About'
@@ -30,10 +27,6 @@ function App() {
           <Footer />
         </div>
       </BrowserRouter>
-     {/* <div className='bg-slate-900 p-3'>
-       <Navbar />
-       <LandingPage />
-     </div> */}
     </>
   )
 }

@@ -83,7 +83,7 @@ const Navbar=()=>{
                                 key={link.id}
                                 className={`
                                     ${active===link.title ? "text-yellow-400":"text-white"}
-                                    hover:text-white
+                                    hover:text-yellow-400
                                     text-[16px]
                                     font-serif
                                     font-medium
